@@ -1,0 +1,85 @@
+#header{
+    background-color: hsl(46, 74%, 43%);
+    border-radius: 10px;
+}
+
+.head_text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: white;
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#navbar{
+    margin-top: 10px;
+    text-align: center;   
+}
+
+.navicon{
+    padding: 5px 20px;
+    background-color: white;
+    margin-left: 10px; 
+    border-width: 0px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.navicon:hover{
+    cursor: pointer;
+}
+
+.navicon:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 77%);
+}
+
+.head_image{
+    float: right;
+    height: 50px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-right: 60px;
+}
+
+.buttons{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    width: 70px;
+    height: 70px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+.buttons:hover{
+    border: 2px solid white;
+}
+.buttons:active{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#calculator{
+    margin-top: 80px;
+}
+#keypad{
+    margin: auto;
+}
+#screen{
+    width: 290px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    background-color: gray;
+    overflow: hidden;
+}
+#screentext{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 35px;
+}

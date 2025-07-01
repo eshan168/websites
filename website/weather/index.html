@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Website</title>
+    <link rel="icon" type="image/png" href="images/thermostat.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://127.0.0.1:5500/Web/projects/calculator/style.css">
+</head>
+<body>
+
+    <header>
+            <div id="weatherhead">
+                <img class="head_image" src="images/thermostat.jpg" alt="thermostat_image">
+                <h1 class="head_text">Weather</h1>
+            </div>
+            <div id="navbar">
+                <a href="http://127.0.0.1:5500/Web/projects/calculator/index.html">
+                    <img src="http://127.0.0.1:5500/Web/projects/calculator/images/calculator.jpg" class="navicon" alt="calculator_image">
+                </a>
+                <a href="http://127.0.0.1:5500/Web/projects/weather/index.html">
+                    <img src="images/thermostat.jpg" class="navicon" style="background-color: rgb(110, 110, 110);" alt="thermostat_image">
+                </a>
+            </div>
+    </header>
+
+    <div id="container">
+        <input id="addressinput"><br>
+        <button id="callbutton" onclick="displayWeather()">Get Weather</button><br>
+        <div id="weatheroutput">
+            <h2 id="weatherdisplay"></h2>
+            <img id="symbol" src="">
+        </div>
+    </div>
+
+    <script src="Node.js"></script>
+
+</body>
+</html>

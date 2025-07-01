@@ -1,0 +1,71 @@
+#weatherhead{
+    background-color: hsl(214, 71%, 43%);
+    border-radius: 10px;
+}
+
+#weatherbutton{
+    background-color: hsl(0, 0%, 38%);
+}
+
+#container{
+    width: 400px;
+    height: 20em;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    border: 4px solid hsl(64, 100%, 22%);
+    background-color: hsl(69, 100%, 82%);
+    text-align: center;
+}
+
+#addressinput{
+    display: inline-block;
+    margin-top: 65px;
+    width: 10em;
+    height: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    background-color: hsl(69, 100%, 91%);;
+}
+
+#callbutton{
+    display: inline-block;
+    background-color: hsl(180, 100%, 71%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding: 8px 12px;
+    border: 2px solid rgb(19, 152, 152);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#callbutton:hover{
+    background-color: hsl(180, 100%, 85%);
+}
+
+#callbutton:active{
+    background-color: hsl(180, 100%, 65%);
+    padding: 6px 9px;
+    margin-top: 23px;
+}
+
+#weatheroutput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+#symbol{
+    display: inline-block;
+    height: 40px;
+    margin-left: 20px;
+}
+
+#weatherdisplay{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
+    margin-top: 45px;
+}
